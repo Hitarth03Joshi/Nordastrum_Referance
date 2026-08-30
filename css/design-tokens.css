@@ -1,0 +1,80 @@
+/* ==========================================================================
+   NORDASTRUM PETROCHEMICALS - DESIGN TOKENS
+   Palette 3: Pearl, Deep Plum, Steel, Champagne Gold
+   ========================================================================== */
+
+:root {
+  /* --- Palette 3 Primary Colors --- */
+  --color-pearl: #F7F7F5;
+  --color-pearl-light: #FCFCFA;
+  --color-pearl-dark: #ECECE7;
+  
+  --color-white: #FFFFFF;
+  --color-card-bg: #FFFFFF;
+  
+  --color-deep-plum: #30253D;
+  --color-plum-dark: #1E1627;
+  --color-plum-darker: #140E1B;
+  --color-plum-surface: #261D31;
+  --color-plum-card: rgba(48, 37, 61, 0.75);
+  
+  --color-muted-purple: #6D6078;
+  --color-muted-purple-light: #8E7F9B;
+  --color-muted-purple-dark: #50445A;
+  
+  --color-steel-gray: #8B9298;
+  --color-steel-light: #D5D9DC;
+  --color-steel-lighter: #EAECEE;
+  --color-steel-dark: #4A5158;
+  
+  /* Metallic Champagne Gold Accent */
+  --color-gold-light: #E7D3A4;
+  --color-gold: #B89A68;
+  --color-gold-dark: #8F7242;
+  --color-gold-glow: rgba(184, 154, 104, 0.35);
+  --color-gold-tint: rgba(184, 154, 104, 0.08);
+
+  /* Functional Tones */
+  --color-text-main: #1F2429;
+  --color-text-muted: #5C646D;
+  --color-text-inverse: #F7F7F5;
+  --color-text-inverse-muted: #B2A8BC;
+  
+  --color-border-light: rgba(139, 146, 152, 0.2);
+  --color-border-dark: rgba(184, 154, 104, 0.25);
+  --color-success: #2E7D32;
+  --color-info: #0288D1;
+  
+  /* Gradients */
+  --gradient-gold: linear-gradient(135deg, #F0DBB0 0%, #B89A68 50%, #8F7242 100%);
+  --gradient-gold-subtle: linear-gradient(135deg, rgba(231, 211, 164, 0.15) 0%, rgba(184, 154, 104, 0.05) 100%);
+  --gradient-plum-hero: radial-gradient(circle at 80% 20%, #3D2D4F 0%, #1E1627 60%, #140E1B 100%);
+  --gradient-plum-card: linear-gradient(165deg, rgba(58, 45, 74, 0.85) 0%, rgba(30, 22, 39, 0.95) 100%);
+  --gradient-dark-section: linear-gradient(180deg, #1E1627 0%, #140E1B 100%);
+  --gradient-pearl-section: linear-gradient(180deg, #F7F7F5 0%, #EFEFEA 100%);
+  --gradient-glass: linear-gradient(135deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.6) 100%);
+
+  /* Typography */
+  --font-heading: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 8px rgba(30, 22, 39, 0.04);
+  --shadow-md: 0 8px 24px rgba(30, 22, 39, 0.08);
+  --shadow-lg: 0 16px 40px rgba(30, 22, 39, 0.12);
+  --shadow-gold: 0 8px 32px rgba(184, 154, 104, 0.25);
+  --shadow-card-dark: 0 12px 36px rgba(10, 6, 14, 0.4);
+
+  /* Radius */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-pill: 9999px;
+
+  /* Transitions */
+  --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}

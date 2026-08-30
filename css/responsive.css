@@ -1,0 +1,150 @@
+/* ==========================================================================
+   NORDASTRUM PETROCHEMICALS - RESPONSIVE STYLES
+   ========================================================================== */
+
+/* --- Tablet Breakpoint (max-width: 1024px) --- */
+@media screen and (max-width: 1024px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+
+  .hero-visual-card {
+    max-width: 600px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .hero-title {
+    font-size: 3rem;
+  }
+
+  .trinity-grid {
+    grid-template-columns: 1fr;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .rfq-grid {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+
+  .infra-pane {
+    grid-template-columns: 1fr;
+    gap: 36px;
+    padding: 32px;
+  }
+
+  .esg-grid {
+    grid-template-columns: 1fr;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+}
+
+/* --- Mobile Breakpoint (max-width: 768px) --- */
+@media screen and (max-width: 768px) {
+  .section-padding {
+    padding: 70px 0;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .site-header {
+    height: 74px;
+  }
+
+  .nav-container {
+    height: 74px;
+  }
+
+  .nav-links {
+    position: fixed;
+    top: 74px;
+    left: 0;
+    right: 0;
+    background: rgba(20, 14, 27, 0.98);
+    backdrop-filter: blur(20px);
+    flex-direction: column;
+    padding: 32px 24px;
+    gap: 20px;
+    border-bottom: 1px solid rgba(184, 154, 104, 0.3);
+    transform: translateY(-120%);
+    transition: transform var(--transition-normal);
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .nav-links.active {
+    transform: translateY(0);
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .mobile-menu-btn {
+    display: block;
+  }
+
+  .hero-section {
+    padding: 130px 0 70px 0;
+  }
+
+  .hero-title {
+    font-size: 2.2rem;
+  }
+
+  .hero-stats-strip {
+    grid-template-columns: 1fr;
+    gap: 18px;
+    text-align: center;
+  }
+
+  .products-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .product-card {
+    padding: 24px;
+  }
+
+  .rfq-calculator-card {
+    padding: 28px 20px;
+  }
+
+  .packaging-options {
+    grid-template-columns: 1fr;
+  }
+
+  .infra-tabs-nav {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .infra-tab-btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .tds-grid-specs {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+  }
+}

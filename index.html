@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO & Brand Metadata -->
+  <title>NORDASTRUM | Global Petrochemicals, High-Performance Polymers & Refining Infrastructure</title>
+  <meta name="description" content="NORDASTRUM is a premier global petrochemical corporation delivering high-purity olefins, polymer-grade aromatics, advanced synthetic resins, and resilient global energy supply chain infrastructure.">
+  <meta name="keywords" content="petrochemicals, ethylene, propylene, HDPE, LLDPE, paraxylene, benzene, PAO lubricants, chemical refining, global supply logistics">
+  
+  <!-- Google Fonts: Outfit (Headings), Plus Jakarta Sans (Body), JetBrains Mono (Specs) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/design-tokens.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       SITE HEADER & NAVIGATION
+       ========================================================================== -->
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-container">
+      <a href="#hero" class="brand-logo-link" id="brandHomeLink">
+        <img src="assets/logo.svg" alt="Nordastrum Emblem" class="brand-logo-symbol">
+        <div class="brand-logo-text">
+          <span class="brand-name">NORDASTRUM</span>
+          <span class="brand-tagline">Petrochemicals & Advanced Materials</span>
+        </div>
+      </a>
+
+      <nav aria-label="Primary Navigation">
+        <ul class="nav-links" id="primaryNavLinks">
+          <li><a href="#about" class="nav-link">About Trinity</a></li>
+          <li><a href="#products" class="nav-link">Chemical Matrix</a></li>
+          <li><a href="#refining" class="nav-link">Refining & Tech</a></li>
+          <li><a href="#logistics" class="nav-link">Global Logistics</a></li>
+          <li><a href="#esg" class="nav-link">ESG & Transition</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#rfq" class="btn btn-gold btn-sm" id="headerRfqBtn">
+          <span>Request RFQ Quote</span>
+        </a>
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle navigation menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==========================================================================
+         HERO SECTION (High-Impact Architectural Dark & Metallic)
+         ========================================================================== -->
+    <section class="hero-section" id="hero">
+      <div class="hero-backdrop-pattern"></div>
+      <div class="container hero-grid">
+        
+        <!-- Left Hero Content -->
+        <div class="hero-content">
+          <div class="hero-pill">
+            <span class="pulse-dot"></span>
+            <span>GLOBAL HYDROCARBON REFINING & SUPPLY NETWORK</span>
+          </div>
+          
+          <h1 class="hero-title">
+            Precision Chemistry. <br>
+            <span class="text-gradient-gold">Resilient Global Energy.</span>
+          </h1>
+          
+          <p class="hero-description">
+            NORDASTRUM delivers ultra-pure polymer feedstocks, high-selectivity monomers, and specialized industrial polymers through precision molecular synthesis and robust worldwide maritime trade corridors.
+          </p>
+          
+          <div class="hero-cta-group">
+            <a href="#products" class="btn btn-gold" id="heroExploreBtn">
+              <span>Explore Product Matrix</span>
+              <span>→</span>
+            </a>
+            <a href="#rfq" class="btn btn-outline-gold" id="heroEstimatorBtn">
+              <span>Bulk RFQ Calculator</span>
+            </a>
+          </div>
+
+          <!-- Hero Real-Time Stats -->
+          <div class="hero-stats-strip">
+            <div class="hero-stat-item">
+              <div class="stat-number">4.8M <span style="font-size:1.1rem;">MT</span></div>
+              <div class="stat-label">Annual Production</div>
+            </div>
+            <div class="hero-stat-item">
+              <div class="stat-number">99.98%</div>
+              <div class="stat-label">Purity Index Standard</div>
+            </div>
+            <div class="hero-stat-item">
+              <div class="stat-number">42+</div>
+              <div class="stat-label">Global Export Hubs</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Hero Interactive Visual Card -->
+        <div class="hero-visual-card">
+          <div class="hero-visual-header">
+            <div>
+              <div class="hero-visual-title">Flagship Catalytic Stream</div>
+              <p style="font-size: 0.8rem; color: var(--color-text-inverse-muted); margin-top:2px;">Real-time specification quick-view</p>
+            </div>
+            <span class="hero-visual-tag">ISO 9001:2015</span>
+          </div>
+
+          <div class="flagship-list" id="heroFlagshipList">
+            <!-- Dynamic flagships injected by app.js -->
+          </div>
+
+          <div style="margin-top: 24px; padding-top: 16px; border-top: 1px solid rgba(255,255,255,0.08); display: flex; justify-content: space-between; align-items: center; font-size: 0.82rem; color: var(--color-text-inverse-muted);">
+            <span>⚡ Automated REACH & ASTM Compliance</span>
+            <a href="#products" style="color: var(--color-gold-light); text-decoration: none; font-weight: 600;">View All 12 Products →</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         BRAND TRINITY SECTION (Deconstruction of Logo Anatomy)
+         ========================================================================== -->
+    <section class="section-padding bg-pearl" id="about">
+      <div class="container">
+        
+        <div class="section-header">
+          <div class="section-badge badge-gold">The Nordastrum Trinity</div>
+          <h2 class="section-title text-gradient-plum">Engineered for Scale, Navigated with Precision</h2>
+          <p class="section-subtitle">
+            Our identity represents three core engineering disciplines that unite to power heavy industry, automotive innovation, and advanced plastics infrastructure across 6 continents.
+          </p>
+        </div>
+
+        <div class="trinity-grid">
+          
+          <!-- Trinity Card 1: Droplet -->
+          <div class="trinity-card" id="trinityDroplet">
+            <div class="trinity-icon-wrapper">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/>
+              </svg>
+            </div>
+            <h3>Molecular Refining (The Droplet)</h3>
+            <p>
+              Advanced steam cracking, catalytic reforming, and fractional distillation units producing the purest hydrocarbon intermediates.
+            </p>
+            <ul class="trinity-points">
+              <li>High-selectivity ethylene & propylene</li>
+              <li>Nitration-grade pure aromatics</li>
+              <li>Extractive NMP butadiene isolation</li>
+            </ul>
+          </div>
+
+          <!-- Trinity Card 2: Compass Star -->
+          <div class="trinity-card" id="trinityStar">
+            <div class="trinity-icon-wrapper">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+              </svg>
+            </div>
+            <h3>Global Logistics (The Star)</h3>
+            <p>
+              Uninterrupted 24/7 maritime routing and port connectivity across major energy gateways in Rotterdam, Houston, Singapore, and Fujairah.
+            </p>
+            <ul class="trinity-points">
+              <li>Chartered cryogenic gas tanker fleets</li>
+              <li>Dedicated intermodal ISO tank corridors</li>
+              <li>Real-time bonded warehouse inventory</li>
+            </ul>
+          </div>
+
+          <!-- Trinity Card 3: Gear -->
+          <div class="trinity-card" id="trinityGear">
+            <div class="trinity-icon-wrapper">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="3"/>
+                <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+              </svg>
+            </div>
+            <h3>Industrial Integrity (The Gear)</h3>
+            <p>
+              Zero-tolerance quality governance, ISO 17025 accredited analytical laboratories, and process safety integrity management.
+            </p>
+            <ul class="trinity-points">
+              <li>Process Safety Tier 1 incident rate: 0.00</li>
+              <li>Closed-loop catalytic recovery systems</li>
+              <li>Rigorous ASTM & ISO testing regime</li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         INTERACTIVE PETROCHEMICAL PRODUCT MATRIX
+         ========================================================================== -->
+    <section class="section-padding bg-pearl-light" id="products" style="background: #FFFFFF;">
+      <div class="container">
+        
+        <div class="section-header">
+          <div class="section-badge badge-gold">Product Portfolio & Specifications</div>
+          <h2 class="section-title text-gradient-plum">Petrochemical & Polymer Matrix</h2>
+          <p class="section-subtitle">
+            Explore our certified range of basic chemicals, high-impact polymers, aromatics, and synthetic base stocks. Filter by category, search by CAS number, or request technical data sheets.
+          </p>
+        </div>
+
+        <!-- Controls: Search & Tabs -->
+        <div class="product-controls">
+          
+          <div class="product-search-wrapper">
+            <span class="search-icon">🔍</span>
+            <input type="text" class="product-search-input" id="productSearchInput" placeholder="Search by chemical name, CAS # (e.g. 74-85-1), formula or category...">
+          </div>
+
+          <div class="category-tabs" id="categoryTabs">
+            <button class="tab-btn active" data-category="all">All Portfolio (12)</button>
+            <button class="tab-btn" data-category="olefins">Olefins & Monomers</button>
+            <button class="tab-btn" data-category="polymers">Polymers & Resins</button>
+            <button class="tab-btn" data-category="aromatics">Aromatics</button>
+            <button class="tab-btn" data-category="solvents">Specialty Solvents</button>
+            <button class="tab-btn" data-category="lubricants">Base Oils & Lubricants</button>
+          </div>
+
+        </div>
+
+        <!-- Products Grid Container -->
+        <div class="products-grid" id="productsGrid">
+          <!-- Injected via JavaScript -->
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         INTERACTIVE RFQ & BULK ESTIMATOR (Dark Executive Plum & Gold)
+         ========================================================================== -->
+    <section class="section-padding bg-deep-plum" id="rfq">
+      <div class="container">
+        
+        <div class="section-header">
+          <div class="section-badge badge-gold-dark">Commercial Quotation Engine</div>
+          <h2 class="section-title text-white">Interactive Bulk RFQ & Logistics Estimator</h2>
+          <p class="section-subtitle">
+            Configure your required chemical volume, packaging configuration, and target discharge port for immediate commercial desk evaluation.
+          </p>
+        </div>
+
+        <div class="rfq-calculator-card">
+          <div class="rfq-grid">
+            
+            <!-- Left Form Controls -->
+            <form id="rfqForm">
+              
+              <div class="form-group">
+                <label for="rfqProduct" class="form-label">Select Chemical / Polymer Product</label>
+                <select id="rfqProduct" class="form-select">
+                  <!-- Populated dynamically via JS -->
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="rfqTonnageSlider" class="form-label">Procurement Volume (Metric Tons)</label>
+                <div class="range-slider-wrapper">
+                  <input type="range" min="20" max="25000" step="20" value="1200" class="range-slider" id="rfqTonnageSlider">
+                  <div class="slider-val-display">
+                    <span>Min: 20 MT</span>
+                    <span class="slider-active-val" id="rfqTonnageDisplay">1,200 MT</span>
+                    <span>Max: 25,000 MT</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label">Packaging & Transport Mode</label>
+                <div class="packaging-options">
+                  <label class="packaging-option-card active">
+                    <input type="radio" name="packaging" value="Bulk ISO Tank Containers" checked>
+                    <span>🚢 Bulk ISO Tank</span>
+                  </label>
+                  <label class="packaging-option-card">
+                    <input type="radio" name="packaging" value="Dedicated Chemical Vessel">
+                    <span>⚓ Parcel Tanker</span>
+                  </label>
+                  <label class="packaging-option-card">
+                    <input type="radio" name="packaging" value="25 kg Palletized Bags / IBC">
+                    <span>📦 25kg Bags / IBC</span>
+                  </label>
+                  <label class="packaging-option-card">
+                    <input type="radio" name="packaging" value="Intermodal Cryogenic Rail">
+                    <span>🚆 Cryo Rail Car</span>
+                  </label>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="rfqPort" class="form-label">Primary Destination Discharge Port</label>
+                <select id="rfqPort" class="form-select">
+                  <option value="rotterdam" selected>Port of Rotterdam (ARA Hub, Netherlands)</option>
+                  <option value="houston">Houston Ship Channel Terminal (USA)</option>
+                  <option value="singapore">Jurong Island Chemical Terminal (Singapore)</option>
+                  <option value="fujairah">Port of Fujairah Energy Zone (UAE)</option>
+                  <option value="antwerp">Port of Antwerp-Bruges (Belgium)</option>
+                </select>
+              </div>
+
+              <div class="form-group" style="margin-bottom: 0;">
+                <label for="rfqEmail" class="form-label">Corporate Email for Quotation Dispatch</label>
+                <input type="email" id="rfqEmail" class="form-input" placeholder="procurement@enterprise.com" required>
+              </div>
+
+              <div style="margin-top: 24px;">
+                <button type="submit" class="btn btn-gold" style="width: 100%;" id="submitRfqBtn">
+                  <span>Submit Official RFQ Request</span>
+                  <span>→</span>
+                </button>
+              </div>
+
+            </form>
+
+            <!-- Right Live Summary Card -->
+            <div class="rfq-summary-card">
+              <div>
+                <div class="rfq-summary-title">Live Commercial Summary</div>
+                
+                <div class="summary-detail-list">
+                  <div class="summary-row">
+                    <span class="label">Product Stream:</span>
+                    <span class="value" id="summaryProduct">Polymer-Grade Ethylene</span>
+                  </div>
+                  <div class="summary-row">
+                    <span class="label">Nominal Volume:</span>
+                    <span class="value" id="summaryVolume">1,200 Metric Tons</span>
+                  </div>
+                  <div class="summary-row">
+                    <span class="label">Mode:</span>
+                    <span class="value" id="summaryPackaging">Bulk ISO Tank Containers</span>
+                  </div>
+                  <div class="summary-row">
+                    <span class="label">Discharge Port:</span>
+                    <span class="value" id="summaryPort">Port of Rotterdam (ARA)</span>
+                  </div>
+                  <div class="summary-row">
+                    <span class="label">Est. Transit Window:</span>
+                    <span class="value" id="summaryDeliveryEst">5 - 8 Business Days</span>
+                  </div>
+                  <div class="summary-row">
+                    <span class="label">Standard Incoterm:</span>
+                    <span class="value" id="summaryIncoterm">CIF Port Delivery</span>
+                  </div>
+                  <div class="summary-row">
+                    <span class="label">Compliance:</span>
+                    <span class="value">REACH / ASTM / ISO 9001</span>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <div style="background: rgba(184, 154, 104, 0.1); border: 1px dashed rgba(184, 154, 104, 0.35); padding: 14px; border-radius: 8px;">
+                  <div style="font-size: 0.82rem; color: var(--color-gold-light); font-weight: 700; margin-bottom: 4px;">⚡ Guaranteed Supply Allocation</div>
+                  <p style="font-size: 0.78rem; color: var(--color-text-inverse-muted); margin: 0;">
+                    Formal pricing and batch assay certificates will be delivered directly from the Nordastrum regional trading desk.
+                  </p>
+                </div>
+                <p class="quote-compliance-note">
+                  Nordastrum International complies with all IMO, REACH, and USMCA petrochemical export guidelines.
+                </p>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         REFINING INFRASTRUCTURE & TECHNOLOGY
+         ========================================================================== -->
+    <section class="section-padding bg-pearl" id="refining">
+      <div class="container">
+        
+        <div class="section-header">
+          <div class="section-badge badge-gold">Manufacturing Excellence</div>
+          <h2 class="section-title text-gradient-plum">Refining Assets & Technological Architecture</h2>
+          <p class="section-subtitle">
+            Operating next-generation steam crackers, fluidized catalytic units, and continuous polymerization loops designed for maximum energy efficiency and zero unplanned downtime.
+          </p>
+        </div>
+
+        <div class="infra-tabs-nav">
+          <button class="infra-tab-btn active" data-target="pane-cracking">
+            <span>🔥 Mixed-Feed Steam Cracking</span>
+          </button>
+          <button class="infra-tab-btn" data-target="pane-poly">
+            <span>🧪 Bimodal Polymerization</span>
+          </button>
+          <button class="infra-tab-btn" data-target="pane-aromatics">
+            <span>⚙️ Aromatics Extraction Complex</span>
+          </button>
+          <button class="infra-tab-btn" data-target="pane-lab">
+            <span>🔬 ISO 17025 Assay Labs</span>
+          </button>
+        </div>
+
+        <!-- Infrastructure Tab Content Panes -->
+        <div class="infra-panes-wrapper">
+          
+          <!-- Pane 1: Steam Cracking -->
+          <div class="infra-pane active" id="pane-cracking">
+            <div class="infra-content">
+              <h3>Mixed-Feed Steam Cracking Unit</h3>
+              <p>
+                Our flagship cracking furnaces process both gaseous ethane/propane and heavy liquid naphtha with high thermal efficiency and lowest CO₂ intensity per ton of ethylene produced.
+              </p>
+              <div class="infra-specs-grid">
+                <div class="infra-spec-box">
+                  <div class="box-num">1.85M MT</div>
+                  <div class="box-lbl">Annual Ethylene Yield</div>
+                </div>
+                <div class="infra-spec-box">
+                  <div class="box-num">99.96%</div>
+                  <div class="box-lbl">On-Stream Reliability</div>
+                </div>
+                <div class="infra-spec-box">
+                  <div class="box-num">Low-NOx</div>
+                  <div class="box-lbl">Staged Combustion</div>
+                </div>
+                <div class="infra-spec-box">
+                  <div class="box-num">Digital Twin</div>
+                  <div class="box-lbl">AI Real-time Optimization</div>
+                </div>
+              </div>
+            </div>
+            <div class="infra-diagram-card">
+              <h4 style="font-family: var(--font-heading); margin-bottom: 20px; color: var(--color-gold-light);">Refining Process Flow</h4>
+              <div class="diagram-step-list">
+                <div class="diagram-step">
+                  <div class="diagram-step-num">1</div>
+                  <div class="diagram-step-text">
+                    <h5>Feedstock Hydro-treatment</h5>
+                    <p>Desulfurization and saturation of heavy fractions to protect sensitive catalysts.</p>
+                  </div>
+                </div>
+                <div class="diagram-step">
+                  <div class="diagram-step-num">2</div>
+                  <div class="diagram-step-text">
+                    <h5>Pyrolysis & Rapid Quench</h5>
+                    <p>Millisecond exposure at 850°C followed by oil quench to freeze reaction yields.</p>
+                  </div>
+                </div>
+                <div class="diagram-step">
+                  <div class="diagram-step-num">3</div>
+                  <div class="diagram-step-text">
+                    <h5>Cryogenic Fractionation</h5>
+                    <p>Multi-stage de-methanizer and C2/C3 splitters reaching 99.95% purity.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pane 2: Polymerization -->
+          <div class="infra-pane" id="pane-poly">
+            <div class="infra-content">
+              <h3>Advanced Bimodal Polymerization Loops</h3>
+              <p>
+                Utilizing dual-reactor cascade gas-phase technology and single-site metallocene catalysts to produce custom molecular-weight distribution resins.
+              </p>
+              <div class="infra-specs-grid">
+                <div class="infra-spec-box">
+                  <div class="box-num">1.2M MT</div>
+                  <div class="box-lbl">Polyethylene Capacity</div>
+                </div>
+                <div class="infra-spec-box">
+                  <div class="box-num">PE100+</div>
+                  <div class="box-lbl">Pressure Pipe Certified</div>
+                </div>
+                <div class="infra-spec-box">
+                  <div class="box-num">&lt; 0.05%</div>
+                  <div class="box-lbl">Gel Imperfection Count</div>
+                </div>
+                <div class="infra-spec-box">
+                  <div class="box-num">100%</div>
+                  <div class="box-lbl">Recyclable Grades</div>
+                </div>
+              </div>
+            </div>
+            <div class="infra-diagram-card">
+              <h4 style="font-family: var(--font-heading); margin-bottom: 20px; color: var(--color-gold-light);">Resin Synthesis Pipeline</h4>
+              <div class="diagram-step-list">
+                <div class="diagram-step">
+                  <div class="diagram-step-num">1</div>
+                  <div class="diagram-step-text">
+                    <h5>Catalyst Micro-Dosing</h5>
+                    <p>Ziegler-Natta and Metallocene single-site catalyst feeds with sub-ppm precision.</p>
+                  </div>
+                </div>
+                <div class="diagram-step">
+                  <div class="diagram-step-num">2</div>
+                  <div class="diagram-step-text">
+                    <h5>Gas-Phase Fluidized Bed</h5>
+                    <p>Continuous copolymerization with 1-hexene and 1-octene co-monomers.</p>
+                  </div>
+                </div>
+                <div class="diagram-step">
+                  <div class="diagram-step-num">3</div>
+                  <div class="diagram-step-text">
+                    <h5>Twin-Screw Pelletization</h5>
+                    <p>Underwater pelletizing with antioxidant and UV-stabilizer compounding.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pane 3: Aromatics -->
+          <div class="infra-pane" id="pane-aromatics">
+            <div class="infra-content">
+              <h3>Continuous Reformer & Aromatics Extraction</h3>
+              <p>
+                Extracting high-purity Benzene, Toluene, and Paraxylene (BTX) via state-of-the-art sulfolane liquid-liquid extraction and Parex adsorption technology.
+              </p>
+              <div class="infra-specs-grid">
+                <div class="infra-spec-box">
+                  <div class="box-num">950K MT</div>
+                  <div class="box-lbl">p-Xylene Capacity</div>
+                </div>
+                <div class="infra-spec-box">
+                  <div class="box-num">99.90%</div>
+                  <div class="box-lbl">Benzene Purity</div>
+                </div>
+                <div class="infra-spec-box">
+                  <div class="box-num">Zero-Benzene</div>
+                  <div class="box-lbl">Fugitive Emissions Target</div>
+                </div>
+                <div class="infra-spec-box">
+                  <div class="box-num">PTA Grade</div>
+                  <div class="box-lbl">Downstream Certified</div>
+                </div>
+              </div>
+            </div>
+            <div class="infra-diagram-card">
+              <h4 style="font-family: var(--font-heading); margin-bottom: 20px; color: var(--color-gold-light);">Aromatics Separation Flow</h4>
+              <div class="diagram-step-list">
+                <div class="diagram-step">
+                  <div class="diagram-step-num">1</div>
+                  <div class="diagram-step-text">
+                    <h5>CCR Platforming</h5>
+                    <p>Catalytic cyclization and dehydrogenation of paraffins into aromatics.</p>
+                  </div>
+                </div>
+                <div class="diagram-step">
+                  <div class="diagram-step-num">2</div>
+                  <div class="diagram-step-text">
+                    <h5>Sulfolane Extraction</h5>
+                    <p>High-recovery separation of aromatics from non-aromatic raffinate.</p>
+                  </div>
+                </div>
+                <div class="diagram-step">
+                  <div class="diagram-step-num">3</div>
+                  <div class="diagram-step-text">
+                    <h5>Parex Adsorption</h5>
+                    <p>Simulated moving bed zeolitic extraction for 99.85%+ pure paraxylene.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pane 4: Lab & Quality -->
+          <div class="infra-pane" id="pane-lab">
+            <div class="infra-content">
+              <h3>ISO/IEC 17025 Analytical Testing Laboratories</h3>
+              <p>
+                Operating 24/7 on-site spectroscopic, chromatographic, and rheological testing facilities. Every product shipment is backed by a verifiable Certificate of Analysis (CoA).
+              </p>
+              <div class="infra-specs-grid">
+                <div class="infra-spec-box">
+                  <div class="box-num">GC-MS/FID</div>
+                  <div class="box-lbl">Trace Impurity Detection</div>
+                </div>
+                <div class="infra-spec-box">
+                  <div class="box-num">ICP-OES</div>
+                  <div class="box-lbl">ppb Metal Ion Screening</div>
+                </div>
+                <div class="infra-spec-box">
+                  <div class="box-num">ASTM D1238</div>
+                  <div class="box-lbl">Melt Flow Rate Precision</div>
+                </div>
+                <div class="infra-spec-box">
+                  <div class="box-num">100% CoA</div>
+                  <div class="box-lbl">Batch Traceability</div>
+                </div>
+              </div>
+            </div>
+            <div class="infra-diagram-card">
+              <h4 style="font-family: var(--font-heading); margin-bottom: 20px; color: var(--color-gold-light);">Analytical Protocol</h4>
+              <div class="diagram-step-list">
+                <div class="diagram-step">
+                  <div class="diagram-step-num">1</div>
+                  <div class="diagram-step-text">
+                    <h5>Inline Process Spectrometry</h5>
+                    <p>Real-time NIR and Raman monitoring directly in process piping.</p>
+                  </div>
+                </div>
+                <div class="diagram-step">
+                  <div class="diagram-step-num">2</div>
+                  <div class="diagram-step-text">
+                    <h5>Pre-Loading Jetty Sampling</h5>
+                    <p>Triple composite tank sampling in accordance with ASTM D4057 standards.</p>
+                  </div>
+                </div>
+                <div class="diagram-step">
+                  <div class="diagram-step-num">3</div>
+                  <div class="diagram-step-text">
+                    <h5>Digital CoA Blockchain Log</h5>
+                    <p>Cryptographically verifiable batch inspection certificates for customers.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         GLOBAL LOGISTICS & SUPPLY NETWORK
+         ========================================================================== -->
+    <section class="section-padding bg-pearl-light" id="logistics" style="background: #FAFAF8;">
+      <div class="container">
+        
+        <div class="section-header">
+          <div class="section-badge badge-gold">Supply Chain Infrastructure</div>
+          <h2 class="section-title text-gradient-plum">Strategic Global Trade Corridors</h2>
+          <p class="section-subtitle">
+            Positioned at the world's most critical maritime choke-points and energy gateways, ensuring seamless supply security for downstream manufacturers.
+          </p>
+        </div>
+
+        <div class="corridors-grid">
+          
+          <div class="corridor-card">
+            <div class="corridor-country">Netherlands • ARA Gateway</div>
+            <div class="corridor-name">Rotterdam Chemical Terminal</div>
+            <div class="corridor-meta">
+              <span><strong>Capacity:</strong> 1,200,000 m³ Tank Farm</span>
+              <span><strong>Draft:</strong> 18.5 m Deepwater Berth</span>
+              <span><strong>Modes:</strong> Ocean Tanker • Rhine River Barge</span>
+            </div>
+          </div>
+
+          <div class="corridor-card">
+            <div class="corridor-country">United States • Gulf Coast</div>
+            <div class="corridor-name">Houston Ship Channel Hub</div>
+            <div class="corridor-meta">
+              <span><strong>Capacity:</strong> 2,400,000 MT/yr Terminal</span>
+              <span><strong>Draft:</strong> 14.5 m Channel Berth</span>
+              <span><strong>Modes:</strong> Pipeline • Class-1 Rail • Sea Vessels</span>
+            </div>
+          </div>
+
+          <div class="corridor-card">
+            <div class="corridor-country">Singapore • Asia-Pacific</div>
+            <div class="corridor-name">Jurong Island Distribution Center</div>
+            <div class="corridor-meta">
+              <span><strong>Capacity:</strong> 850,000 m³ Cryogenic / Chemical</span>
+              <span><strong>Draft:</strong> 16.0 m Deepsea Jetty</span>
+              <span><strong>Modes:</strong> Asia Feeder Lines • ISO Container Fleet</span>
+            </div>
+          </div>
+
+          <div class="corridor-card">
+            <div class="corridor-country">United Arab Emirates • Middle East</div>
+            <div class="corridor-name">Port of Fujairah Energy Hub</div>
+            <div class="corridor-meta">
+              <span><strong>Capacity:</strong> 1,800,000 m³ Terminal</span>
+              <span><strong>Draft:</strong> 20.0 m VLCC Berth</span>
+              <span><strong>Modes:</strong> Direct Indian Ocean & Suez Corridors</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         ESG & SUSTAINABLE CHEMICAL TRANSITION
+         ========================================================================== -->
+    <section class="section-padding bg-deep-plum" id="esg">
+      <div class="container">
+        
+        <div class="section-header">
+          <div class="section-badge badge-gold-dark">Responsible Care & Decarbonization</div>
+          <h2 class="section-title text-white">Shaping the Future of Sustainable Chemistry</h2>
+          <p class="section-subtitle">
+            Transitioning the petrochemical value chain toward net-zero through circular feedstocks, electric cracking development, and certified mass-balance polymers.
+          </p>
+        </div>
+
+        <div class="esg-grid">
+          
+          <div class="esg-card">
+            <div class="esg-icon">🌱</div>
+            <h4>Bio-Attributed Feedstocks</h4>
+            <p>
+              ISCC PLUS certified mass-balance polymers derived from second-generation bio-naphtha and waste cooking oil residues, offering identical performance with up to 75% reduced carbon footprint.
+            </p>
+          </div>
+
+          <div class="esg-card">
+            <div class="esg-icon">♻️</div>
+            <h4>Advanced Chemical Recycling</h4>
+            <p>
+              Collaborating on pyrolysis oil purification to feed end-of-life mixed plastic waste directly back into high-temperature steam crackers for virgin-quality food-contact resin production.
+            </p>
+          </div>
+
+          <div class="esg-card">
+            <div class="esg-icon">⚡</div>
+            <h4>E-Cracker & Carbon Capture</h4>
+            <p>
+              Pioneering electrical heating for steam cracking furnaces powered by offshore wind power, paired with amine-based post-combustion CO₂ capture and geological sequestration.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==========================================================================
+       SITE FOOTER (Executive Dark Corporate)
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      
+      <div class="footer-grid">
+        
+        <div class="footer-brand">
+          <div style="display: flex; align-items: center; gap: 12px;">
+            <img src="assets/logo.svg" alt="Nordastrum" style="width: 38px; height: 38px;">
+            <span style="font-family: var(--font-heading); font-size: 1.4rem; font-weight: 800; color: #FFFFFF; letter-spacing: 2px;">NORDASTRUM</span>
+          </div>
+          <p>
+            Premier global petrochemical and advanced materials corporation. Delivering molecular purity, operational excellence, and resilient global energy logistics.
+          </p>
+          <div style="font-size: 0.82rem; color: var(--color-gold-light);">
+            📍 Global HQ: 100 Bishopsgate, London EC2N 4AG, United Kingdom
+          </div>
+        </div>
+
+        <div>
+          <div class="footer-heading">Petrochemical Portfolios</div>
+          <ul class="footer-links">
+            <li><a href="#products" class="footer-link">Olefins & Monomers</a></li>
+            <li><a href="#products" class="footer-link">Polymers & Resins (HDPE/PP)</a></li>
+            <li><a href="#products" class="footer-link">Pure Aromatics (BTX)</a></li>
+            <li><a href="#products" class="footer-link">Specialty Glycols & Solvents</a></li>
+            <li><a href="#products" class="footer-link">Group IV PAO Base Oils</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-heading">Refining & Network</div>
+          <ul class="footer-links">
+            <li><a href="#refining" class="footer-link">Mixed-Feed Steam Crackers</a></li>
+            <li><a href="#refining" class="footer-link">Continuous Polymerization</a></li>
+            <li><a href="#logistics" class="footer-link">Rotterdam ARA Hub</a></li>
+            <li><a href="#logistics" class="footer-link">Houston Ship Channel Terminal</a></li>
+            <li><a href="#logistics" class="footer-link">Jurong Island Singapore Hub</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-heading">Commercial Inquiries</div>
+          <p style="font-size: 0.88rem; color: var(--color-text-inverse-muted); margin-bottom: 16px;">
+            Connect with our international trading desk for volume pricing and logistics allocations.
+          </p>
+          <a href="#rfq" class="btn btn-gold btn-sm" style="width: 100%;">
+            <span>Open Commercial RFQ</span>
+          </a>
+          <div style="margin-top: 14px; font-size: 0.8rem; color: var(--color-text-inverse-muted);">
+            Direct Desk: commercial@nordastrum.com
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          © 2026 NORDASTRUM International Energy & Petrochemical Group. All rights reserved.
+        </div>
+        <div style="display: flex; gap: 20px;">
+          <a href="#" style="color: var(--color-text-inverse-muted); text-decoration: none;">Safety Data Sheets (SDS)</a>
+          <a href="#" style="color: var(--color-text-inverse-muted); text-decoration: none;">REACH Compliance</a>
+          <a href="#" style="color: var(--color-text-inverse-muted); text-decoration: none;">Terms of Supply</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       TECHNICAL DATA SHEET (TDS) MODAL DRAWER
+       ========================================================================== -->
+  <div class="modal-overlay" id="tdsModal" role="dialog" aria-modal="true">
+    <div class="tds-modal-card">
+      
+      <div class="tds-modal-header">
+        <div>
+          <h3 class="tds-header-title" id="tdsTitle">Product Technical Specification</h3>
+          <div class="tds-header-sub" id="tdsFormulaCas">Formula • CAS • Category</div>
+        </div>
+        <button class="modal-close-btn" id="closeTdsModal" aria-label="Close modal">✕</button>
+      </div>
+
+      <div class="tds-modal-body">
+        
+        <div class="tds-section-group">
+          <h4>Product Overview</h4>
+          <p id="tdsDescription" style="color: var(--color-text-muted); font-size: 0.95rem; line-height: 1.6;"></p>
+        </div>
+
+        <div class="tds-section-group">
+          <h4>Certified Physical & Chemical Properties</h4>
+          <div class="tds-grid-specs">
+            <div class="tds-spec-item">
+              <span class="tds-spec-label">Guaranteed Purity</span>
+              <span class="tds-spec-value" id="tdsPurity">--</span>
+            </div>
+            <div class="tds-spec-item">
+              <span class="tds-spec-label">Visual Appearance</span>
+              <span class="tds-spec-value" id="tdsAppearance">--</span>
+            </div>
+            <div class="tds-spec-item">
+              <span class="tds-spec-label">Density / Viscosity</span>
+              <span class="tds-spec-value" id="tdsDensity">--</span>
+            </div>
+            <div class="tds-spec-item">
+              <span class="tds-spec-label">Boiling / Melting Point</span>
+              <span class="tds-spec-value" id="tdsBoilingPoint">--</span>
+            </div>
+            <div class="tds-spec-item">
+              <span class="tds-spec-label">Flash Point</span>
+              <span class="tds-spec-value" id="tdsFlashPoint">--</span>
+            </div>
+            <div class="tds-spec-item">
+              <span class="tds-spec-label">Standard Testing Methods</span>
+              <span class="tds-spec-value" id="tdsAstm">--</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="tds-section-group">
+          <h4>Approved Downstream Applications</h4>
+          <div class="tds-app-tags" id="tdsApplications">
+            <!-- Injected dynamically -->
+          </div>
+        </div>
+
+        <div class="tds-section-group">
+          <h4>Standard International Packaging Modes</h4>
+          <div class="tds-app-tags" id="tdsPackaging">
+            <!-- Injected dynamically -->
+          </div>
+        </div>
+
+      </div>
+
+      <div class="tds-modal-footer">
+        <button class="btn btn-outline-dark btn-sm" id="tdsDownloadBtn">
+          <span>📥 Download Verified TDS (PDF)</span>
+        </button>
+        <button class="btn btn-gold btn-sm" id="tdsRfqAction">
+          <span>+ Add to Bulk RFQ</span>
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Application Scripts -->
+  <script src="js/products-data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
